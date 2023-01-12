@@ -1,7 +1,10 @@
 .inlineBlock {
     display: inline-block;
     vertical-align: middle;
-    padding: 1em;
+}
+
+.leftBlock {
+    padding-right: 3em;
 }
 
 a {
