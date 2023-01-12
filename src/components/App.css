@@ -3,15 +3,17 @@
 
 h1 {
     font-family: 'Press Start 2P', sans-serif;
-    font-size: 3em;
+    font-size: 2em;
     color: #9900ff;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.25em;
 }
 
 body {
     text-align: center;
+    padding-top: 12%;
     font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
 }

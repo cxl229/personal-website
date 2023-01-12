@@ -3,3 +3,12 @@
     vertical-align: middle;
     padding: 1em;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
