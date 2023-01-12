@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 3em;
+    color: #9900ff;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+body {
+    text-align: center;
+    font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+}

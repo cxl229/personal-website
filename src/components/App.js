@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Home from './pages/Home';
+import Home from "./Home";
 
 /*
 import Navbar from './components/Navbar';
@@ -35,7 +35,7 @@ function App() {
 function App() {
     return (
         <>
-        <Home></Home>
+        <Home/>
         </>
     );
 }
