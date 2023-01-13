@@ -34,3 +34,7 @@ a {
 a:hover, a:active {
     text-decoration: underline;
 }
+
+.dropShadow {
+    box-shadow: 20px 20px 0 rgba(0,0,0,0.3);
+}

@@ -8,13 +8,13 @@ import computerGif from "../img/computer.gif";
 function Home() {
     return (
         <>
-        <div className="inlineBlock leftBlock">
+        <div className="homeInlineBlock leftBlock">
             <h1>Charlotte Lin</h1>
             <h3>computer programmer + digital artist</h3>
             <LinkText href="https://www.github.com/charlottexlin" text="github.com/charlottexlin" icon={githubIcon}/>
             <LinkText href="https://www.linkedin.com/in/charlotte-lin-nyu/" text="linkedin.com/charlotte-lin-nyu" icon={linkedinIcon}/>
         </div>
-        <img className="inlineBlock" src={computerGif} alt=""/>
+        <img className="homeInlineBlock" src={computerGif} alt=""/>
         </>
     );
 }
