@@ -1,6 +1,7 @@
 .inlineBlock {
     display: inline-block;
     vertical-align: middle;
+    margin-top: 5%;
 }
 
 .leftBlock {
