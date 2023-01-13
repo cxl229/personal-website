@@ -4,14 +4,5 @@
 }
 
 .leftBlock {
-    padding-right: 3em;
-}
-
-a {
-    color: black;
-    text-decoration: none;
-}
-
-a:hover, a:active {
-    text-decoration: underline;
+    margin-right: 3em;
 }

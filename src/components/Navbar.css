@@ -1,0 +1,16 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 3em;
+    margin-right: 2em;
+}
+
+li {
+    display: inline;
+    margin-right: 3em;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 1.25em;
+    list-style: none;
+    color: white;
+}
