@@ -7,10 +7,10 @@ function About() {
         <>
         <h2>About</h2>
         <div className="aboutBlock">
-            <img className="dropShadow" src={portrait} alt="Photograph of Charlotte with her cat"/>
+            <img className="dropShadow portrait" src={portrait} alt="Photograph of Charlotte with her cat"/>
             <div>
-                <h3>Hi, I'm Charlotte Lin!</h3>
-                <p>
+                <h3 className="bio">Hi, I'm Charlotte Lin!</h3>
+                <p className="bio">
                     I am a student at New York University (class of 2023) with a major in computer science and a minor in digital art & design.
                     I'm passionate about applying creativity to computing in order to solve problems and develop unique programs.
                     In my free time, I like to read, write, draw, and play video games. Please check out some of my coding projects on my portfolio page.

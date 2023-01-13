@@ -6,11 +6,11 @@
     width: 70%;
 }
 
-img {
+.portrait {
     margin-right: 2em;
 }
 
-h3, p {
+.bio {
     text-align: left;
 }
 
