@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
     width: 80%;
+    height: 350px + 1em;
     background-color: lightgrey;
     margin-left: auto;
     margin-right: auto;
@@ -38,7 +39,7 @@ h6 {
 .projectDescription {
     font-size: 0.8em;
     text-align: left;
-    margin-top: 0.8em;
+    margin-top: 0.4em;
     margin-bottom: 1em;
     margin-right: 1em;
     margin-left: 0;

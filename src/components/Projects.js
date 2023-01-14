@@ -1,9 +1,10 @@
 import React from 'react';
 import Project from './Project';
 import itemArr from '../portfolioProjects';
+import { motion } from 'framer-motion';
 
 function Projects() {
-    const projs = itemArr.map((item) => {
+    const projs = itemArr.map((item, index) => {
         return (
             <Project
                 image={item.image}
@@ -12,15 +13,20 @@ function Projects() {
                 techStack={item.techStack}
                 description={item.description}
                 links={item.links}
+                key={index}
             ></Project>
         );
     });
 
     return (
-        <>
-        <h2>Project</h2>
-        <div>{projs}</div>
-        </>
+        <motion.div
+            initial={{ opacity: 0, y: 200 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+        >
+            <h2>Projects</h2>
+            <div>{projs}</div>
+        </motion.div>
     );
 }
 
