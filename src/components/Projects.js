@@ -19,10 +19,17 @@ function Projects() {
     });
 
     return (
+        /*
         <motion.div
-            initial={{ opacity: 0, y: 200 }}
+            initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
+        >
+        */
+        <motion.div
+            initial={{width:0}}
+            animate={{width:"100%"}}
+            exit={{x:window.innerWidth, transition: {duration:0.3}}}
         >
             <h2>Projects</h2>
             <div>{projs}</div>
