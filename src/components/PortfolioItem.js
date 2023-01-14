@@ -11,7 +11,7 @@ function PortfolioItem(props) {
 
     return (
         <div className="portfolioItem dropShadow">
-            <img src={props.image} alt={props.projectName + " image"}/>
+            <img className="projectImage" src={props.image} alt={props.projectName + " image"}/>
             <div>
                 <h4>{props.projectName}</h4>
                 <h5>{props.subtitle}</h5>
