@@ -1,8 +1,8 @@
 import React from 'react';
-import './PortfolioItem.css';
+import './Project.css';
 import LinkText from './LinkText';
 
-function PortfolioItem(props) {
+function Project(props) {
     const links = props.links.map((link) => {
         return (
             <LinkText icon={link.icon} text={link.text} href={link.href}></LinkText>
@@ -10,7 +10,7 @@ function PortfolioItem(props) {
     });
 
     return (
-        <div className="portfolioItem dropShadow">
+        <div className="project dropShadow">
             <img className="projectImage" src={props.image} alt={props.projectName + " image"}/>
             <div>
                 <h4>{props.projectName}</h4>
@@ -25,4 +25,4 @@ function PortfolioItem(props) {
     );
 }
 
-export default PortfolioItem;
+export default Project;

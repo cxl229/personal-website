@@ -1,27 +1,27 @@
 import React from 'react';
-import PortfolioItem from './PortfolioItem';
+import Project from './Project';
 import itemArr from '../portfolioProjects';
 
-function Portfolio() {
-    const portfolioItems = itemArr.map((item) => {
+function Projects() {
+    const projs = itemArr.map((item) => {
         return (
-            <PortfolioItem
+            <Project
                 image={item.image}
                 projectName={item.projectName}
                 subtitle={item.subtitle}
                 techStack={item.techStack}
                 description={item.description}
                 links={item.links}
-            ></PortfolioItem>
+            ></Project>
         );
     });
 
     return (
         <>
-        <h2>Portfolio</h2>
-        <div>{portfolioItems}</div>
+        <h2>Project</h2>
+        <div>{projs}</div>
         </>
     );
 }
 
-export default Portfolio;
+export default Projects;
