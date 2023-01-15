@@ -8,17 +8,11 @@ import computerGif from "../img/computer.gif";
 
 function Home() {
     return (
-        /*
         <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-        >
-        */
-        <motion.div
-            initial={{width:0}}
-            animate={{width:"100%"}}
-            exit={{x:window.innerWidth, transition: {duration:0.3}}}
+            initial={{x: window.innerWidth}}
+            animate={{x: 0}}
+            exit={{x: window.innerWidth}}
+            transition={{duration: 0.2}}
         >
             <div className="homeInlineBlock leftBlock">
                 <h1>Charlotte Lin</h1>
@@ -30,5 +24,15 @@ function Home() {
         </motion.div>
     );
 }
+
+// Animation with bounce
+/*
+<motion.div
+    initial={{x: "50%"}}
+    animate={{x: 0}}
+    exit={{x: window.innerWidth}}
+    transition={{type: "spring", bounce: 0.3, duration: 0.2}}
+>
+*/
 
 export default Home;

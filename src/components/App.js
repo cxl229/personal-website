@@ -9,7 +9,6 @@ import AnimatedRoutes from './AnimatedRoutes';
 // Navbar reference: https://blog.logrocket.com/creating-navbar-react/
 // Page transition animation using Framer Motion - adapted from code by PedroTech: https://www.youtube.com/watch?v=FdrEjwymzdY
 // Page transition animation using Framer Motion article: https://www.section.io/engineering-education/page-transition-in-react-using-framer-motion/
-// Framer Motion documentation examples for slide transition: https://www.framer.com/motion/examples/
 
 function App() {
     return (

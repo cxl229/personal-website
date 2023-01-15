@@ -5,17 +5,11 @@ import portrait from "../img/portrait.jpg";
 
 function About() {
     return (
-        /*
         <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-        >
-        */
-        <motion.div
-            initial={{width:0}}
-            animate={{width:"100%"}}
-            exit={{x:window.innerWidth, transition: {duration:0.3}}}
+            initial={{x: window.innerWidth}}
+            animate={{x: 0}}
+            exit={{x: window.innerWidth}}
+            transition={{duration: 0.2}}
         >
             <h2>About</h2>
             <div className="aboutBlock">
@@ -25,9 +19,9 @@ function About() {
                     <p className="bio">
                         I am a student at New York University (class of 2023) with a major in computer science and a minor in digital art & design.
                         I'm passionate about applying creativity to computing in order to solve problems and develop unique programs.
-                        In my free time, I like to read, write, and play video games. Please check out some of my coding projects on my portfolio page.
+                        In my free time, I like to read, write, and play video games. Please check out some of my coding projects on the projects page.
                         <br/><br/>
-                        If you'd like to contact me, please email me at <a className="emailAddress" href="mailto:charlottexlin02@gmail.com">charlottexlin02@gmail.com</a>.
+                        If you'd like to contact me, please email me at <a href="mailto:charlottexlin02@gmail.com">charlottexlin02@gmail.com</a>.
                     </p>
                 </div>
             </div>
