@@ -8,6 +8,10 @@
 # testing
 /coverage
 
+# not ready to commit these yet
+/src/components/DownButton.js
+/src/components/DownButton.css
+
 # production
 /build
 

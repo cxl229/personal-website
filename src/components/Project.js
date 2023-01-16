@@ -3,9 +3,9 @@ import './Project.css';
 import LinkText from './LinkText';
 
 function Project(props) {
-    const links = props.links.map((link) => {
+    const links = props.links.map((link, index) => {
         return (
-            <LinkText icon={link.icon} text={link.text} href={link.href}></LinkText>
+            <LinkText icon={link.icon} text={link.text} href={link.href} key={index}></LinkText>
         );
     });
 
@@ -20,10 +20,10 @@ function Project(props) {
                 <h5 className="featuredTag">{tag}</h5>
                 <h5>{props.subtitle}</h5>
                 <h6>{props.techStack}</h6>
-                <p className="projectDescription">
+                <div className="projectDescription">
                     {props.description}
                     {links}
-                </p>
+                </div>
             </div>
         </div>
     );

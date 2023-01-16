@@ -66,7 +66,7 @@ const itemArr = [
             "Slice of Life is a time slice tracking desktop app, designed to inspire a healthier, more balanced lifestyle. I created this project for HackNYU 2022 within 24 hours. All code and art is by me. " +
             "It won the Disney 'Most Magical Hack' prize.",
         links: [
-            {icon: githubIcon, text: "github.com/charlottexlin/slice-of-life", href: "https://github.com/charlottexlin/slice-of-life"},
+            {icon: githubIcon, text: "github.com/cxl229/slice-of-life", href: "https://github.com/cxl229/slice-of-life"},
             {icon: devpostIcon, text: "devpost.com/software/slice-of-life-xui45n", href: "https://devpost.com/software/slice-of-life-xui45n"}
         ]
     },
