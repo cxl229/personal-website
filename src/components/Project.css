@@ -53,3 +53,19 @@ a {
 a:hover, a:active {
     text-decoration: underline;
 }
+
+.projectText {
+    position: relative;
+}
+
+.featuredTag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.5em;
+    font-family: 'Courier New', monospace;
+    color: #d8217c;
+    text-align: left;
+    margin-top: 0.3em;
+    margin-right: 1em;
+}
