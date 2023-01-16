@@ -6,10 +6,10 @@ import portrait from "../img/portrait.jpg";
 function About() {
     return (
         <motion.div
-            initial={{x: window.innerWidth}}
+            initial={{x: "50%"}}
             animate={{x: 0}}
             exit={{x: window.innerWidth}}
-            transition={{duration: 0.2}}
+            transition={{type: "spring", bounce: 0.3, duration: 0.2}}
         >
             <h2>About</h2>
             <div className="aboutBlock">
@@ -21,7 +21,7 @@ function About() {
                         I'm passionate about applying creativity to computing in order to solve problems and develop unique programs.
                         In my free time, I like to read, write, and play video games. Please check out some of my coding projects on the projects page.
                         <br/><br/>
-                        If you'd like to contact me, please email me at <a href="mailto:charlottexlin02@gmail.com">charlottexlin02@gmail.com</a>.
+                        If you'd like to contact me, please email me at <a className="emailAddress" href="mailto:charlottexlin02@gmail.com">charlottexlin02@gmail.com</a>.
                     </p>
                 </div>
             </div>

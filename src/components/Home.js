@@ -9,10 +9,10 @@ import computerGif from "../img/computer.gif";
 function Home() {
     return (
         <motion.div
-            initial={{x: window.innerWidth}}
+            initial={{x: "50%"}}
             animate={{x: 0}}
             exit={{x: window.innerWidth}}
-            transition={{duration: 0.2}}
+            transition={{type: "spring", bounce: 0.3, duration: 0.2}}
         >
             <div className="homeInlineBlock leftBlock">
                 <h1>Charlotte Lin</h1>
@@ -25,13 +25,13 @@ function Home() {
     );
 }
 
-// Animation with bounce
+// Animation without bounce
 /*
 <motion.div
-    initial={{x: "50%"}}
+    initial={{x: window.innerWidth}}
     animate={{x: 0}}
     exit={{x: window.innerWidth}}
-    transition={{type: "spring", bounce: 0.3, duration: 0.2}}
+    transition={{duration: 0.2}}
 >
 */
 

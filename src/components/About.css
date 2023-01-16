@@ -14,9 +14,8 @@
     text-align: left;
 }
 
-a {
+.emailAddress {
     color: white;
-    text-decoration: none;
 }
 
 a:hover, a:active {

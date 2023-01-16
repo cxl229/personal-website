@@ -20,10 +20,10 @@ function Projects() {
 
     return (
         <motion.div
-            initial={{x: window.innerWidth}}
+            initial={{x: "50%"}}
             animate={{x: 0}}
             exit={{x: window.innerWidth}}
-            transition={{duration: 0.2}}
+            transition={{type: "spring", bounce: 0.3, duration: 0.2}}
         >
             <h2>Projects</h2>
             <div>{projs}</div>

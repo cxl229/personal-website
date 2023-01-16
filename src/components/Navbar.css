@@ -5,14 +5,19 @@
 }
 
 li {
-    display: inline;
+    display: inline-block;
     margin-right: 3em;
     font-family: 'Press Start 2P', sans-serif;
     font-size: 1.25em;
     list-style: none;
     color: white;
+    transition: all 500ms;
 }
 
-.nav:hover {
-    transform: translateY(20px);
+.link:hover, .link:active {
+    text-decoration: none;
+}
+
+li:hover, li:active {
+    transform: translateY(-50%);
 }

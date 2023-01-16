@@ -14,7 +14,7 @@ const itemArr = [
         subtitle: "november 2022, web project",
         techStack: "javascript, html, css, node.js, bootstrap, mongodb",
         description:
-            "Roll! Battle! Collect awesome cats! 'Gacha Cats' was my final project for the Applied Internet Technology course at NYU, and my first ever complete web project. " +
+            "Roll! Battle! Collect awesome cats! 'Gacha Cats!' is my final project for the Applied Internet Technology course at NYU, and my first ever complete web project. " +
             "I learned a lot about full-stack development, including database interactions with Mongoose, creating an API with Express and accessing it with Fetch, and and customizing the frontend with Sass. " +
             "All art and design is my own.",
         links: [
@@ -41,7 +41,7 @@ const itemArr = [
         subtitle: "february 2022, java application",
         techStack: "java",
         description:
-            "Slice of Life is a time slice tracking desktop app, designed to inspire a healthier lifestyle. I created this project for HackNYU 2022 within 24 hours. All code and art is by me. " +
+            "Slice of Life is a time slice tracking desktop app, designed to inspire a healthier, more balanced lifestyle. I created this project for HackNYU 2022 within 24 hours. All code and art is by me. " +
             "It won the Disney 'Most Magical Hack' prize.",
         links: [
             {icon: githubIcon, text: "github.com/charlottexlin/slice-of-life", href: "https://github.com/charlottexlin/slice-of-life"},
