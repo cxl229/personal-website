@@ -6,10 +6,10 @@ const Navbar= () =>{
   return (
   <div className="navbar">
     <Link to="/" className="link">
-      <li>home</li>
+      <li className="rightMargin">home</li>
     </Link>
     <Link to="/about" className="link">
-      <li>about</li>
+      <li className="rightMargin">about</li>
     </Link>
     <Link to="/projects" className="link">
       <li>projects</li>

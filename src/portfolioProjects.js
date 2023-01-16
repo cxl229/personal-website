@@ -82,7 +82,7 @@ const itemArr = [
             "All code and art is by me. It won the nCino “Why So Serious Hack” prize.",
         links: [
             {icon: devpostIcon, text: "devpost.com/software/task-pet", href: "https://devpost.com/software/task-pet"},
-            {icon: driveIcon, text: "drive.google.com/drive/folders/14pZxuFD_uB9-b12DSJ_5YY_sxDMStP9W", href: "https://drive.google.com/drive/folders/14pZxuFD_uB9-b12DSJ_5YY_sxDMStP9W"}
+            {icon: driveIcon, text: "Google Drive folder", href: "https://drive.google.com/drive/folders/14pZxuFD_uB9-b12DSJ_5YY_sxDMStP9W"}
         ]
     },
     {
@@ -96,7 +96,7 @@ const itemArr = [
             "Art and music was by my team members. The program provides a relaxing and aesthetically pleasing digital café space with several mental health resources for users. " +
             "It received the “Best in Category (Health)” prize.",
         links: [
-            {icon: driveIcon, text: "drive.google.com/drive/folders/1Ztsvv1k4bv5jLxhqcArwUE6IBJuRUAmv", href: "https://drive.google.com/drive/folders/1Ztsvv1k4bv5jLxhqcArwUE6IBJuRUAmv?usp=sharing"}
+            {icon: driveIcon, text: "Google Drive folder", href: "https://drive.google.com/drive/folders/1Ztsvv1k4bv5jLxhqcArwUE6IBJuRUAmv?usp=sharing"}
         ]
     }
 ];
