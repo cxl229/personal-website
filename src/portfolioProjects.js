@@ -23,7 +23,7 @@ const itemArr = [
             "I aimed to have this site reflect my personality, as well as serve as a live showcase of my programming and design knowledge.",
         links: [
             {icon: githubIcon, text: "github.com/cxl229/personal-website", href: "https://github.com/cxl229/personal-website"},
-            {icon: linkIcon, text: "charlottexlin.com", href: "https://charlottexlin.com/"}
+            {icon: linkIcon, text: "charlottexlin.com", href: "https://www.charlottexlin.com/"}
         ]
     },
     {
