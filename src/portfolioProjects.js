@@ -18,7 +18,7 @@ const itemArr = [
         projectName: "Personal Website",
         featured: false,
         subtitle: "february 2023, web game",
-        techStack: "javascript, pixi.js",
+        techStack: "javascript, node.js, express.js, pixi.js",
         description:
             "Greentown is an educational web game about sustainable communities. You play as a town planner, making choices about how to build the town and learning from the consequences. " +
             "Art is from open source game assets. The game was created for HackNYU 2023 by me and one other team member. It received the “Most Outrageous Hack” prize.",
@@ -32,7 +32,7 @@ const itemArr = [
         projectName: "Personal Website",
         featured: false,
         subtitle: "january 2023, web project",
-        techStack: "react.js, javascript, html, css",
+        techStack: " javascript, html, css, react.js, node.js",
         description:
             "I challenged myself to create this website using the React framework. After designing the wireframe, I put the code together from scratch over the course of a week during my winter break. " +
             "I aimed to have this site reflect my personality, as well as serve as a live showcase of my programming and design knowledge.",
@@ -61,7 +61,7 @@ const itemArr = [
         projectName: "Gacha Cats!",
         featured: true,
         subtitle: "november 2022, web game",
-        techStack: "javascript, html, css, node.js, bootstrap, mongodb",
+        techStack: "javascript, html, css, node.js, express.js, bootstrap, mongodb",
         description:
             "Roll! Battle! Collect awesome cats! 'Gacha Cats!' is my final project for the Applied Internet Technology course at NYU, and my first ever complete web project. " +
             "I learned a lot about full-stack development, including database interactions with Mongoose, creating an API with Express and accessing it with Fetch, and and customizing the frontend with Sass. " +
