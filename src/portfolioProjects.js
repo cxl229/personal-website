@@ -1,3 +1,4 @@
+import greentown from './img/greentown.png';
 import gachaCats from './img/gachacats.PNG';
 import personalWebsite from './img/website.PNG';
 import catWent from './img/wherethecatwent.png';
@@ -12,6 +13,20 @@ import driveIcon from './img/drive.png';
 // Project images should be 350 x 350 px, descriptions should be 4 lines long
 
 const itemArr = [
+    {
+        image: greentown,
+        projectName: "Personal Website",
+        featured: false,
+        subtitle: "february 2023, web game",
+        techStack: "javascript, pixi.js",
+        description:
+            "Greentown is an educational web game about sustainable communities. You play as a town planner, making choices about how to build the town and learning from the consequences. " +
+            "Art is from open source game assets. The game was created for HackNYU 2023 by me and one other team member. It received the “Most Outrageous Hack” prize.",
+        links: [
+            {icon: githubIcon, text: "github.com/cxl229/greentown", href: "https://github.com/cxl229/greentown"},
+            {icon: linkIcon, text: "greentown.vercel.app", href: "https://greentown.vercel.app/"}
+        ]
+    },
     {
         image: personalWebsite,
         projectName: "Personal Website",
