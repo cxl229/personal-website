@@ -1,4 +1,4 @@
-import greentown from './img/greentown.png';
+import greenTown from './img/greentown.png';
 import gachaCats from './img/gachacats.PNG';
 import personalWebsite from './img/website.PNG';
 import catWent from './img/wherethecatwent.png';
@@ -14,7 +14,7 @@ import driveIcon from './img/drive.png';
 
 const itemArr = [
     {
-        image: greentown,
+        image: greenTown,
         projectName: "Green Town",
         featured: false,
         subtitle: "february 2023, web game",
