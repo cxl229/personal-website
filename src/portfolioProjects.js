@@ -15,12 +15,12 @@ import driveIcon from './img/drive.png';
 const itemArr = [
     {
         image: greentown,
-        projectName: "Greentown",
+        projectName: "Green Town",
         featured: false,
         subtitle: "february 2023, web game",
         techStack: "javascript, node.js, express.js, pixi.js",
         description:
-            "Greentown is an educational web game about sustainable communities. You play as a town planner, making choices about how to build the town and learning from the consequences. " +
+            "Green Town is an educational web game about sustainable communities. You play as a town planner, making choices about how to build the town and learning from the consequences. " +
             "Art is from open source game assets. The game was created for HackNYU 2023 by me and one other team member. It received the “Most Outrageous Hack” prize.",
         links: [
             {icon: githubIcon, text: "github.com/cxl229/greentown", href: "https://github.com/cxl229/greentown"},
