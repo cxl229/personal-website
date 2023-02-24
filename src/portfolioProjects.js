@@ -15,7 +15,7 @@ import driveIcon from './img/drive.png';
 const itemArr = [
     {
         image: greentown,
-        projectName: "Personal Website",
+        projectName: "Greentown",
         featured: false,
         subtitle: "february 2023, web game",
         techStack: "javascript, node.js, express.js, pixi.js",
